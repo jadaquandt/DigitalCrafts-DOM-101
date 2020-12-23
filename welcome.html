@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome.html</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p class="example">Example 4</p>
+    <script>
+        document.write("<b>Welcome to DigitalCrafts </b><br><p class='example'>Example 5 </p>");
+        document.write("<b>Browser: </b>" +navigator.appName+"<br><br>");
+        document.write("<b>Browser Version: </b>" +navigator.appVersion+"<br><br>");
+        document.write("<b>Browser Code: </b>" +navigator.appCodeName+"<br><br>");
+        document.write("<b>Platform: </b>" +navigator.platform+"<br><br>");
+        document.write("<b>Cookie Enabled: </b>" +navigator.cookieEnabled+"<br><br>");
+        document.write("<b>User Agent: </b>" +navigator.userAgent+"<br><br>");
+        document.write("<b>Java Enabled: </b>" +navigator.javaEnabled+"<br><br>");
+    </script>
+    
+    <p class="example">Example 6</p>
+    <form>
+        <select name="fruit" id="">
+            <option value="0">Select a fruit</option>
+            <option value="Mango">Mango</option>
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Orange">Orange</option>
+        </select>
+        <input type="button" value="Select" onclick="optionfruit(this.form.fruit)">
+    </form>
+    <script src="./welcome.js"></script>
+</body>
+</html>

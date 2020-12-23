@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning DOM with Dr. Vicki at DigitalCrafts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Introduction to Document Object Model with Dr. Vicki at DigitalCrafts</h1>
+    <!-- EXAMPLE 1 -->
+    <p class="example">EXAMPLE 1</p>
+    <h2>Login</h2>
+    Username: <input type="text" id="uname"><br>
+    Password: <input type="password" id="pass"><br>
+    <input type="button" onClick="check()"  value="sign in">
+    <!-- EXAMPLE 2 -->
+    <p class="example">EXAMPLE 2</p>
+    <p>Welcome <b id='buttxt'></b></p>
+    Your Name:  <input type="text" id="fname">
+    <br>
+    <input type="button" onClick="welcome()" value="Enter">
+    <!--EXAMPLE 3  -->
+    <p class="example">EXAMPLE 3  (click Open Window for Example  4</p>
+    <form>
+        <input type="button" value="Open" onClick=window.alert()>
+        <input type="button" onClick="openwindow()" value="Open Window">
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
